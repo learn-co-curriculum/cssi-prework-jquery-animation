@@ -26,7 +26,17 @@ $('p').animate(
     1500
 )
 ```
-Here we are changing the style of each paragraph to a font size of 24 (the params) over a period of 1500 ms (the speed).
+Here we are changing the style of each paragraph to a font size of 24 (the params) over a period of 1500 ms (the speed). Note that as a parameter of animate(), the CSS properties must be camelCase (fontSize instead of font-size)
+
+You can include multiple CSS properties separated with commas.
+```js
+$("#cat").click(function(){
+    $("#cat").animate({
+                       height: 200,
+                       width: 200
+                })
+              });
+```
 
 ## Animation Shortcuts
 There are also some convenient shortcut methods for common animations developers use all the time:
