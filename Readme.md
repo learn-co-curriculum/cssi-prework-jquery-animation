@@ -38,6 +38,9 @@ $("#cat").click(function(){
               });
 ```
 
+###Changing Position
+Remember, the CSS  position default for all elements is static. Therefore, any jQuery animation that moves an object will not work unless you set the CSS position to one of the other values: relative, absolute or fixed.
+
 ## Animation Shortcuts
 There are also some convenient shortcut methods for common animations developers use all the time:
 * .slideUp()/ .slideDown() - an element moves up/down
