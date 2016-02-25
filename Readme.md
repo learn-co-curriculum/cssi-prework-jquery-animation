@@ -43,8 +43,8 @@ Remember, the CSS  position default for all elements is static. Therefore, any j
 
 ## Animation Shortcuts
 There are also some convenient shortcut methods for common animations developers use all the time:
-* .slideUp()/ .slideDown() - an element moves up/down
-* .fadeIn()/.fadeOut() - Show/Remove an element with a slow fade
+* .slideUp()/ .slideDown() - hide an element that hides the element via sliding
+* .fadeIn()/.fadeOut() - show/remove an element with a slow fade
 
 
 Animation powers a multitude of web experiences - when a page has satisfying button clicks, when elements fade or slide (or both!) nicely onto and off the page - all excellent animation. Animation can be bad too - when the sliding is too slow, or the fades and slides in and out look cartoonish and silly.
