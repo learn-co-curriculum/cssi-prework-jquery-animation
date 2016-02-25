@@ -38,8 +38,20 @@ $("#cat").click(function(){
               });
 ```
 
-###Changing Position
+###Changing Position and Relative Values
 Remember, the CSS  position default for all elements is static. Therefore, any jQuery animation that moves an object will not work unless you set the CSS position to one of the other values: relative, absolute or fixed.
+
+To move an element left, right up and down, the simplest way is by changing either the top, bottom, left or right properties. These can be absolute or relative
+
+```javascript
+$("button").click(function(){
+        $("#img1").animate({top: '200px'}, "fast");
+        $("#img2").animate({left: '+=20px'}, "slow");
+    });
+
+```
+
+In the above function, the click of the button triggers two events. The element with the id #img1 moves so that it's top edge is 200px below it's nearest ancestor. The element with the id #img2 moves so that it's left edge is 20px further right than it used to be.
 
 ## Animation Shortcuts
 There are also some convenient shortcut methods for common animations developers use all the time:
