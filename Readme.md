@@ -1,8 +1,4 @@
----
-tags: cssi, javascript, jquery
-level: 2
-languages: javascript
----
+
 #Animation with jQuery and CSS
 One of the cooler features of jQuery is animation. The concept is pretty simple:
 
