@@ -1,11 +1,11 @@
 #Animation in JQuery
-So far we've used the jQuery library to manipulate elements in the DOM. We've also figured out how jQuery helps our page respond to user events with even listeners. Another big advantage of the jQuery library is how easy it is to add animations to a page by using some of jQuerys built-in methods.
 
 ##Objectives
-Keep reading to learn
-* jQuery Animation Process
-* The animate() method
-* Animation Shortcut Methods
+* Understand the jQuery Animation Process
+* Use the `animate()` method to animate
+* Explore and use animation shortcut methods
+
+So far we've used the jQuery library to manipulate elements in the DOM. We've also figured out how jQuery helps our page respond to user events with even listeners. Another big advantage of the jQuery library is how easy it is to add animations to a page by using some of jQuerys built-in methods.
 
 ##Animation with jQuery and CSS
 One of the cooler features of jQuery is animation. First, selectors are using  to indicate which DOM elements to animate. A target CSS style is set. jQuery automatically calculates the intermediate styles at each millisecond to make sure the selected elements transform gradually from their original style.
