@@ -8,7 +8,7 @@
 So far we've used the jQuery library to manipulate elements in the DOM. We've also figured out how jQuery helps our page respond to user events with even listeners. Another big advantage of the jQuery library is how easy it is to add animations to a page by using some of jQuerys built-in methods.
 
 ## Animation with jQuery and CSS
-One of the cooler features of jQuery is animation. First, selectors are using  to indicate which DOM elements to animate. A target CSS style is set. jQuery automatically calculates the intermediate styles at each millisecond to make sure the selected elements transform gradually from their original style.
+One of the cooler features of jQuery is animation. First, selectors are used to indicate which DOM elements to animate. A target CSS style is set. jQuery automatically calculates the intermediate styles at each millisecond to make sure the selected elements transform gradually from their original style.
 
 ## Animation using the animate() Method
 The animate() method is the most flexible method. The full syntax for the animate() method is below:
@@ -38,7 +38,7 @@ $("#cat").click(function(){
               });
 ```
 
-###Changing Position and Relative Values
+### Changing Position and Relative Values
 Remember, the CSS  position default for all elements is static. Therefore, any jQuery animation that moves an object will not work unless you set the CSS position to one of the other values: relative, absolute or fixed.
 
 To move an element left, right up and down, the simplest way is by changing either the top, bottom, left or right properties. These can be absolute or relative
